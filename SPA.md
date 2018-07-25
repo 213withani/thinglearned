@@ -1,4 +1,8 @@
-# Single page apps in depth
+#SPA - Specific browser implementation
+https://medium.com/@pshrmn/demystifying-single-page-applications-3068d0555d46
+
+
+# Single page apps in depth (concepts)
 http://singlepageappbook.com/goal.html
 
 SPA = more-native-app-like experience to the user.
