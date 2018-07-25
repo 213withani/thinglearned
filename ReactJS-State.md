@@ -32,3 +32,7 @@ https://thinkster.io/tutorials/understanding-react-state
 What’s the difference between water and ice? Temperature
 * With water, simply put it in your freezer (below 32F) and its state will change from liquid to a solid. 
 * If you put it on a hot stovetop (above 212F), its state will change from liquid to gas. 
+
+# So what is state?
+
+“state”, an object that determines how that component renders & behaves.
