@@ -1,3 +1,11 @@
+# Step 2: Build A Static Version in React
+https://reactjs.org/docs/thinking-in-react.html
+
+The easiest way is to build a version that takes your data model and renders the UI but has no interactivity.
+
+State is reserved only for interactivity,
+
+
 # State in Web application design
 https://www.w3.org/2001/tag/doc/state.html
 
