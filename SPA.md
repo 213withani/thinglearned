@@ -30,8 +30,8 @@ Any code that depends on the DOM needs to be tested for cross-browser compatibil
 
 Single page apps need a better word, because they have more complex state transitions than a server-side app:
 
-there are DOM events that cause small state changes in views
-there are model events when model values are changed
-there are application state changes that cause views to be swapped
-there are global state changes, like going offline in a real time app
-there are delayed results from AJAX that get returned at some point from backend operations
+* there are DOM events that cause small state changes in views (dave.com example)
+* there are model events when model values are changed (counter that changes model/data)
+* there are application state changes that cause views to be swapped (memorize game app state transition)
+* there are global state changes, like going offline in a real time app
+* there are delayed results from AJAX that get returned at some point from backend operations
