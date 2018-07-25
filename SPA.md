@@ -1,4 +1,4 @@
-#SPA - Specific browser implementation
+# SPA - Specific browser implementation
 https://medium.com/@pshrmn/demystifying-single-page-applications-3068d0555d46
 
 
