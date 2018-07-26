@@ -1,3 +1,15 @@
+# The 5 Types Of React Application State
+
+http://jamesknelson.com/5-types-react-application-state/
+
+five types of state are:
+
+* Data
+* Communication
+* Control
+* Session
+* Location
+
 # Cookie Security Note
 https://msdn.microsoft.com/en-us/library/75x4ha6s.aspx
 
