@@ -1,3 +1,14 @@
+# Web Application Types
+## Client-Side Single-Page App
+
+The server tends to have a rich REST API and most of its endpoints return raw data. Very few HTTP endpoints will return actual HTML.
+
+The client JavaScript is responsible for retrieving data from the server, generating displays for the user, collecting user input and making requests to the server on behalf of the user.
+ 
+The client JavaScript often uses a framework [React] to help with the HTML generation.
+
+The website relies upon JavaScript to generate HTML, so these apps are not search engine–friendly and also tend to have slower page-load times.
+
 # SPA - Specific browser implementation
 https://medium.com/@pshrmn/demystifying-single-page-applications-3068d0555d46
 
