@@ -1,5 +1,6 @@
 # Web Application Types
 ## Client-Side Single-Page App
+https://www.experoinc.com/post/web-application-types-part-1
 
 The server tends to have a rich REST API and most of its endpoints return raw data. Very few HTTP endpoints will return actual HTML.
 
@@ -8,6 +9,15 @@ The client JavaScript is responsible for retrieving data from the server, genera
 The client JavaScript often uses a framework [React] to help with the HTML generation.
 
 The website relies upon JavaScript to generate HTML, so these apps are not search engine–friendly and also tend to have slower page-load times.
+
+# Web Application Types (Part 2): The Modern Single-Page App
+https://www.experoinc.com/post/web-application-types-part-2-the-modern-single-page-app
+
+It’s a “single” page in that only one static HTML file needs to be sent by the server, unlike traditional web pages that serve separate HTML files for each URL.
+
+After the initial page load, navigation within the app no longer triggers a full page refresh, and routing is handled entirely client-side.
+
+The purpose of a JavaScript framework is to manage application state, events, and updates to the view.
 
 # SPA - Specific browser implementation
 https://medium.com/@pshrmn/demystifying-single-page-applications-3068d0555d46
