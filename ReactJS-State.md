@@ -1,3 +1,16 @@
+# Cookie Security Note
+https://msdn.microsoft.com/en-us/library/75x4ha6s.aspx
+
+The browser can only send the data back to the server that originally created the cookie. However, malicious users have ways to access cookies and read their contents. It is recommended that you do not store sensitive information, such as a user name or password, in a cookie. Instead, store a token in the cookie that identifies the user, and then use the token to look up the sensitive information on the server.
+
+## Query string ?abc=x
+A query string is information that is appended to the end of a page URL.
+
+Query strings provide a simple but limited way to maintain state information. For example, they are an easy way to pass information from one page to another,
+
+In order for query string values to be available during page processing, you must submit the page using an HTTP GET command. 
+
+
 # Explains state (old article)
 https://www.codemag.com/article/0409061/State-Management
 
