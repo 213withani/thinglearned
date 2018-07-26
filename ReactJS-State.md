@@ -1,3 +1,9 @@
+# Explains state (old article)
+https://www.codemag.com/article/0409061/State-Management
+
+# Cookies proposal draft
+https://www.w3.org/Protocols/rfc2109/rfc2109
+
 # Step 2: Build A Static Version in React
 https://reactjs.org/docs/thinking-in-react.html
 
