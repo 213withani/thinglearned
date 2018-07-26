@@ -19,6 +19,13 @@ After the initial page load, navigation within the app no longer triggers a full
 
 The purpose of a JavaScript framework is to manage application state, events, and updates to the view.
 
+## Build Process
+The primary tasks of the build process are code compilation, file bundling, and minification.
+
+One could build an SPA without any build process, using only the most commonly supported features of JavaScript (ES5) and a mess of JS and CSS files.
+
+Similarly, CSS preprocessors, like LESS or SASS, are commonly used to provide higher-level features for stylesheet development. 
+
 # SPA - Specific browser implementation
 https://medium.com/@pshrmn/demystifying-single-page-applications-3068d0555d46
 
