@@ -16,5 +16,5 @@ ex:
 * truecar.com
 * producthunt.com
 
-#responsive-web-design
+# responsive-web-design
 https://alistapart.com/article/responsive-web-design
