@@ -1,3 +1,7 @@
+# MOBX
+https://www.youtube.com/watch?v=Dp75-DnGFrU
+
+
 # The 5 Types Of React Application State
 
 http://jamesknelson.com/5-types-react-application-state/
