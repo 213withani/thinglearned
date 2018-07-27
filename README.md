@@ -17,4 +17,5 @@ ex:
 * producthunt.com
 
 # responsive-web-design
+https://developers.google.com/web/fundamentals/design-and-ux/responsive/
 https://alistapart.com/article/responsive-web-design
