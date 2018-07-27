@@ -15,3 +15,6 @@ ex:
 * dave.com
 * truecar.com
 * producthunt.com
+
+#responsive-web-design
+https://alistapart.com/article/responsive-web-design
