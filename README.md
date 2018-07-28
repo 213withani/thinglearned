@@ -24,3 +24,9 @@ https://alistapart.com/article/responsive-web-design
 # Scrollbar position
 http://kirbysayshi.com/2013/08/19/maintaining-scroll-position-knockoutjs-list.html
 scrollTop (current scroll position)
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollHeight
+height of an element's content
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop
+Top to bottom = 0 to height
