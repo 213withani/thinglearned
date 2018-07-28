@@ -40,3 +40,6 @@ https://uxplanet.org/copywriting-for-interfaces-types-of-copy-in-web-and-mobile-
 
 ## UI basics with great design (gifs)
 https://uxplanet.org/small-stars-of-big-design-review-of-interactive-ui-elements-fe856eafe0a2
+
+## the next 10 years (design for the future)
+https://uxdesign.cc/immersive-design-the-next-10-years-of-interfaces-16122cb6eae6
