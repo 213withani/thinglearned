@@ -32,3 +32,8 @@ height of an element's content
 ## scrollTop
 https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop
 Top to bottom = 0 to height
+
+# UX
+## Copywriting for Interfaces: Types of Copy in Web and Mobile UI
+
+https://uxplanet.org/copywriting-for-interfaces-types-of-copy-in-web-and-mobile-ui-6326f92865f8
