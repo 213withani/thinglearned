@@ -51,3 +51,7 @@ linked the firebase and web app.
 
 # Firebase permission-denied
 https://stackoverflow.com/questions/47984114/firebase-permission-denied
+
+# MOBX
+## Storybook
+https://medium.com/skillshare-team/how-we-ditched-redux-for-mobx-a05442279a2b
