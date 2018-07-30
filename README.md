@@ -33,6 +33,9 @@ height of an element's content
 https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop
 Top to bottom = 0 to height
 
+https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight
+Element.clientHeight is element content + padding
+
 # UX
 ## Copywriting for Interfaces: Types of Copy in Web and Mobile UI
 
