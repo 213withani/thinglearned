@@ -3,7 +3,7 @@
 * [Learn about SPAs](SPA.md)
 * [Learn about UX-UI.md](UX-UI.md.md)
 * [Learn about firebase real time db](firebase.md)
-* [Learn about SPAs](SPA.md)
+* [Learn about HOCs](HigherOrderComponents.md)
 * [Learn about SPAs](SPA.md)
 * [Learn about SPAs](SPA.md)
 * [Learn about SPAs](SPA.md)
