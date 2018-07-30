@@ -21,21 +21,6 @@ https://developers.google.com/web/fundamentals/design-and-ux/responsive/
 https://alistapart.com/article/responsive-web-design
 
 
-# Scrollbar position
-http://kirbysayshi.com/2013/08/19/maintaining-scroll-position-knockoutjs-list.html
-scrollTop (current scroll position)
-
-## scrollHeight
-https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollHeight
-height of an element's content
-
-## scrollTop
-https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop
-Top to bottom = 0 to height
-
-https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight
-Element.clientHeight is element content + padding
-
 # UX
 ## Copywriting for Interfaces: Types of Copy in Web and Mobile UI
 
