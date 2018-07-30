@@ -1,13 +1,13 @@
 # Content
-[Learn about APIs](API.md)
-[Learn about SPAs](SPA.md)
-[Learn about UX-UI.md](UX-UI.md.md)
-[Learn about firebase real time db](firebase.md)
-[Learn about SPAs](SPA.md)
-[Learn about SPAs](SPA.md)
-[Learn about SPAs](SPA.md)
-[Learn about SPAs](SPA.md)
-[Learn about SPAs](SPA.md)
+* [Learn about APIs](API.md)
+* [Learn about SPAs](SPA.md)
+* [Learn about UX-UI.md](UX-UI.md.md)
+* [Learn about firebase real time db](firebase.md)
+* [Learn about SPAs](SPA.md)
+* [Learn about SPAs](SPA.md)
+* [Learn about SPAs](SPA.md)
+* [Learn about SPAs](SPA.md)
+* [Learn about SPAs](SPA.md)
 
 # thinglearned
 ## Aha moments
