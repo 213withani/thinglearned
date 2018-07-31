@@ -1,3 +1,10 @@
+# Infinite Scrolling in React (w/ Graphql)
+https://www.youtube.com/watch?v=6irLmUBAG_A
+
+1. Keeping track of the scrollbar
+1. When it reaches the top, we fetch more items
+1. Adjust the scrollbar to the position you were at
+
 # Lazy loading
 https://medium.com/front-end-hacking/implementing-infinite-scrolling-7390d6eed530
 
