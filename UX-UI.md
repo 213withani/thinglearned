@@ -21,3 +21,6 @@ https://uxdesign.cc/immersive-design-the-next-10-years-of-interfaces-16122cb6eae
 # Good UI design
 http://mixu.net/
 http://mixu.net/gr/
+
+# Hidden designs in Logos
+https://www.boredpanda.com/365-challenge-minimalist-logo-design-ideas-daniel-carlmatz/
