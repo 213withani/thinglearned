@@ -4,6 +4,10 @@ https://alistapart.com/article/responsive-web-design
 
 
 # UX
+
+# Practical design tips
+https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886
+
 ## Copywriting for Interfaces: Types of Copy in Web and Mobile UI
 
 https://uxplanet.org/copywriting-for-interfaces-types-of-copy-in-web-and-mobile-ui-6326f92865f8
