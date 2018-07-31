@@ -13,3 +13,7 @@ https://uxplanet.org/small-stars-of-big-design-review-of-interactive-ui-elements
 
 ## the next 10 years (design for the future)
 https://uxdesign.cc/immersive-design-the-next-10-years-of-interfaces-16122cb6eae6
+
+# Good UI design
+http://mixu.net/
+http://mixu.net/gr/
