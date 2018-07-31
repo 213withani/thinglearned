@@ -1,3 +1,6 @@
+# Lazy loading
+https://medium.com/front-end-hacking/implementing-infinite-scrolling-7390d6eed530
+
 # Examples
 https://react.rocks/tag/InfiniteScroll
 https://coderiety.github.io/react-list/
@@ -22,3 +25,4 @@ Top to bottom = 0 to height
 
 https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight
 Element.clientHeight is element content + padding
+
