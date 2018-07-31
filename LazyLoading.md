@@ -3,6 +3,7 @@ http://jsfiddle.net/vjeux/KbWJ2/9/
 https://www.youtube.com/watch?v=Bx5JB2FcSnk
 
 # Infinite Scrolling in React (w/ Graphql)
+## google search: reactjs infinite loading basics
 https://www.youtube.com/watch?v=6irLmUBAG_A
 
 1. Keeping track of the scrollbar
