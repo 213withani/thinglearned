@@ -1,3 +1,7 @@
+# Bad video and pages but check it out
+http://jsfiddle.net/vjeux/KbWJ2/9/
+https://www.youtube.com/watch?v=Bx5JB2FcSnk
+
 # Infinite Scrolling in React (w/ Graphql)
 https://www.youtube.com/watch?v=6irLmUBAG_A
 
