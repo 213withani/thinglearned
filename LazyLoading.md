@@ -44,3 +44,5 @@ Top to bottom = 0 to height
 https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight
 Element.clientHeight is element content + padding
 
+# Stop content from shifting left when scrollbar appears
+https://stackoverflow.com/questions/45524214/how-do-i-stop-my-web-content-from-shifting-left-when-the-vertical-scrollbar-appe
