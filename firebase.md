@@ -28,6 +28,16 @@ const listOfItemsObjs = firebase
       .database()
       .ref('items').orderByKey().limitToLast(5);
 ```
+
+https://stackoverflow.com/questions/37736443/firebase-query-using-equalto-boolean-value-string-key-not-working
+
+```js
+const listOfItemsObjs = firebase
+      .database()
+      .ref('items').orderByChild("isPublic")
+      .equalTo(true);
+```
+
 # REACT AND FIREBASE
 ## 1 : Create react app and setup Firebase
 https://medium.com/@taweesoft/chapter-1-create-react-app-and-setup-firebase-real-time-todo-list-with-firebase-react-js-f03a904097c7
