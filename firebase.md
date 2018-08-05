@@ -22,11 +22,11 @@ componentDidMount() {
 ```
 
 # REACT AND FIREBASE
-# 1 : Create react app and setup Firebase
+## 1 : Create react app and setup Firebase
 https://medium.com/@taweesoft/chapter-1-create-react-app-and-setup-firebase-real-time-todo-list-with-firebase-react-js-f03a904097c7
 linked the firebase and web app.
 
-# Firebase permission-denied
+## Firebase permission-denied
 https://stackoverflow.com/questions/47984114/firebase-permission-denied
 
 
