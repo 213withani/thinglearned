@@ -21,6 +21,13 @@ componentDidMount() {
 }
 ```
 
+https://howtofirebase.com/collection-queries-with-firebase-b95a0193745d
+
+```js
+const listOfItemsObjs = firebase
+      .database()
+      .ref('items').orderByKey().limitToLast(5);
+```
 # REACT AND FIREBASE
 ## 1 : Create react app and setup Firebase
 https://medium.com/@taweesoft/chapter-1-create-react-app-and-setup-firebase-real-time-todo-list-with-firebase-react-js-f03a904097c7
