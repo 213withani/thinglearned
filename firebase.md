@@ -28,3 +28,12 @@ linked the firebase and web app.
 
 # Firebase permission-denied
 https://stackoverflow.com/questions/47984114/firebase-permission-denied
+
+
+# Firebase series
+https://www.youtube.com/watch?v=v_hR4K4auoQ&list=PLl-K7zZEsYLluG5MCVEzXAQ7ACZBCuZgZ
+NoSQL
+Horizontally scaling
+Document model db
+in the cloud
+
