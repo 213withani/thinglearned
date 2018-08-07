@@ -1,5 +1,7 @@
 # copywork
 https://daveceddia.com/learn-react-with-copywork/
+https://daveceddia.com/learning-react-start-small/
+https://jamesclear.com/deliberate-practice-theory
 
 # RWieruch;
 https://www.robinwieruch.de/
