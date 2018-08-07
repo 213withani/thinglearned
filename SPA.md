@@ -1,5 +1,6 @@
 # Cache
 ## Avoiding single page application cache staleness
+Have a time to live (TTL) for the items in our cache.
 https://shahmeer.co/blog/avoiding-single-page-application-cache-staleness.html
 
 # Web Application Types
