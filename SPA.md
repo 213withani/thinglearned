@@ -1,4 +1,19 @@
 # Cache
+
+https://stackoverflow.com/questions/42072665/how-is-a-single-page-application-faster-than-a-normal-website
+For more information check resources below:
+
+Single Page Application: advantages and disadvantages question 
+
+https://stackoverflow.com/questions/21862054/single-page-application-advantages-and-disadvantages
+HTTP Caching article by Ilya Grigorik
+
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching
+Do browsers parse javascript on every page load? question
+
+BFCache page on MDN
+
+
 ## single-page-application-advantages-and-disadvantages
 https://stackoverflow.com/questions/21862054/single-page-application-advantages-and-disadvantages
 
