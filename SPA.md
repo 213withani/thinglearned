@@ -1,4 +1,7 @@
 # Cache
+## single-page-application-advantages-and-disadvantages
+https://stackoverflow.com/questions/21862054/single-page-application-advantages-and-disadvantages
+
 ## Avoiding single page application cache staleness
 Have a time to live (TTL) for the items in our cache.
 https://shahmeer.co/blog/avoiding-single-page-application-cache-staleness.html
