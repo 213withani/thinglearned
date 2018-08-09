@@ -3,3 +3,10 @@ A span inside a div. When elements are nested what determines an item has overfl
 
 ## Background: the difference between div and span (2010 but good info)
 http://dustwell.com/div-span-inline-block.html
+
+# lessons learned in 4 months
+HTML inline, inline-block and block
+
+ReactJS State (UI/App)
+
+JS: This keyword and DOM
