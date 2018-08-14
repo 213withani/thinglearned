@@ -10,3 +10,5 @@ HTML inline, inline-block and block
 ReactJS State (UI/App)
 
 JS: This keyword and DOM
+
+# biomimicry
