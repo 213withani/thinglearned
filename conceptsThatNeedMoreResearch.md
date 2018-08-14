@@ -11,4 +11,7 @@ ReactJS State (UI/App)
 
 JS: This keyword and DOM
 
+# JS static properties (short article)
+https://medium.com/front-end-hacking/understanding-static-in-javascript-10782149993
+
 # biomimicry
