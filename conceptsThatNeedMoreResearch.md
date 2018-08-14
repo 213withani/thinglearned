@@ -15,4 +15,5 @@ JS: This keyword and DOM
 https://medium.com/front-end-hacking/understanding-static-in-javascript-10782149993
 TL;DR: Static properties are properties of a class, not of an instance of a class.
 
-# biomimicry
+# Aha moments (good js and react links)
+https://www.reddit.com/r/reactjs/comments/5gmywc/what_were_the_biggest_aha_moments_you_had_while/
