@@ -20,3 +20,9 @@ https://youtu.be/6irLmUBAG_A
 https://stateofjs.com
 
 ## http://mozaik.rocks/
+
+# React
+https://tylermcginnis.com/blog/
+
+# React for beginners
+https://blog.andrewray.me/reactjs-for-stupid-people/
