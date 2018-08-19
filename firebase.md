@@ -63,6 +63,24 @@ ES (open source) or Algolia (paid service)
 https://medium.com/@NodeArt/improving-firebase-database-searching-abilities-with-elasticsearch-f999245e3925
 
 only few methods of sorting:
-orderByChild(), orderByKey(), orderByValue()
+* orderByChild(), orderByKey(), orderByValue()
 and filtering data:
-limitToFirst(), limitToLast(), startAt(), endAt(), equalTo()
+* limitToFirst(), limitToLast(), startAt(), endAt(), equalTo()
+
+https://www.quora.com/How-would-you-search-a-Firebase-Realtime-Database-with-a-substring
+
+finds all dinosaurs whose name starts with the letter "b".
+
+```js
+var ref = new Firebase("https://yyyy.firebaseio.com/");
+ref.orderByKey().startAt("b").endAt("b\uf8ff").on("child_added", function(snapshot) {
+  console.log(snapshot.key());
+});
+```
+The equalTo() method allows us to filter based on exact matches.
+```js
+var ref = new Firebase("https://yyyy.firebaseio.com/");
+ref.orderByChild("height").equalTo(25).on("child_added", function(snapshot) {
+  console.log(snapshot.key());
+});
+```
