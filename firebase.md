@@ -54,3 +54,6 @@ Horizontally scaling
 Document model db
 in the cloud
 
+# Search
+https://medium.com/google-cloud/firebase-search-a-bigger-boat-c85695546d02
+ES (open source) or Algolia (paid service)
