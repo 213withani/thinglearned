@@ -55,5 +55,14 @@ Document model db
 in the cloud
 
 # Search
+## Big projects options
 https://medium.com/google-cloud/firebase-search-a-bigger-boat-c85695546d02
 ES (open source) or Algolia (paid service)
+
+## small project option
+https://medium.com/@NodeArt/improving-firebase-database-searching-abilities-with-elasticsearch-f999245e3925
+
+only few methods of sorting:
+orderByChild(), orderByKey(), orderByValue()
+and filtering data:
+limitToFirst(), limitToLast(), startAt(), endAt(), equalTo()
