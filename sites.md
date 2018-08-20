@@ -1,3 +1,6 @@
+# API fetch and JS related
+https://www.taniarascia.com/
+
 # copywork
 https://daveceddia.com/learn-react-with-copywork/
 https://daveceddia.com/learning-react-start-small/
