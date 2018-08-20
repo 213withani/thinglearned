@@ -1,3 +1,7 @@
+
+# redux
+https://tonyhb.gitbooks.io/redux-without-profanity/content/introduction_to_react.html
+
 # API fetch and JS related
 https://www.taniarascia.com/
 
