@@ -17,3 +17,5 @@ https://github.com/sokra
 # Open Source
 
 https://dev.to/ben/whos-looking-for-open-source-contributors-july-31-edition-192k?utm_source=additional_box&utm_medium=internal&utm_campaign=regular&booster_org=
+
+https://next.gatsbyjs.org/tutorial/
