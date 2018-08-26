@@ -1,5 +1,6 @@
 # Errors client and server side
 https://www.sitepoint.com/logging-errors-client-side-apps/
+https://stackoverflow.com/questions/24502190/how-to-to-log-js-errors-from-a-client-into-kibana
 
 # Cache
 
