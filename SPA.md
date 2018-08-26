@@ -1,3 +1,6 @@
+# Errors client and server side
+https://www.sitepoint.com/logging-errors-client-side-apps/
+
 # Cache
 
 https://stackoverflow.com/questions/42072665/how-is-a-single-page-application-faster-than-a-normal-website
