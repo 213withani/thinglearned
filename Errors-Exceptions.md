@@ -35,3 +35,7 @@ try {
 
 ```
 This will not work because the callback function passed to fs.readFile() is called asynchronously. By the time the callback has been called, the surrounding code (including the try { } catch (err) { } block will have already exited. 
+
+
+# Class: Error
+* Error objects capture a "stack trace"
