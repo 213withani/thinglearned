@@ -1,3 +1,5 @@
+# random opinions and short tuts
+https://goshakkk.name/
 
 # redux
 https://tonyhb.gitbooks.io/redux-without-profanity/content/introduction_to_react.html
