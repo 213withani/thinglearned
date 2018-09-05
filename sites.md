@@ -1,5 +1,7 @@
 # random opinions and short tuts
 https://goshakkk.name/
+* You don't need a tutorial for every-freaking-thing
+* 5 practical tips to finally learn React in 2018
 
 # redux
 https://tonyhb.gitbooks.io/redux-without-profanity/content/introduction_to_react.html
