@@ -1,3 +1,7 @@
+# Use {} inside JSX
+## To display JS expressions inside JSX use {}
+https://youtu.be/ed8SzALpx1Q?t=2h47m8s
+
 # Ref and controlled components
 https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/
 
