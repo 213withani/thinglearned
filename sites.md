@@ -1,3 +1,6 @@
+# cheatsheets
+https://devhints.io/react
+
 # random opinions and short tuts
 https://goshakkk.name/
 * You don't need a tutorial for every-freaking-thing
