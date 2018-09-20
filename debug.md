@@ -1,3 +1,7 @@
+# NodeJS middle tier
+* If all environments are working except one then our middle tier is not likely the issue.
+* Recreated endpoint used by the app and proved the endpoint was returning an empty []
+
 # React, redux, graphql app
 ## How to find API your app is using
 1. Have dev tools open
