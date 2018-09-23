@@ -1,3 +1,29 @@
+# Free React.js Bootcamp - Day 1
+
+https://youtu.be/8GXXGJRDMdQ
+
+@ 11:35 mins
+
+What is React? React is a library for building user interfaces.
+
+Goal: Building better UI.
+
+Point Talks:
+* Composition: App is based on components composed together. Like Angular directives, jquery widgets
+* Unidirectional Dataflow: The way it handles data flow through components. From parent to child.
+* Explicit Mutations
+* Just Javascript
+
+How do you build a large app? By building a bunch of small apps.
+
+Composition:
+<Container>
+  <Navbar/>
+  <Header/>
+<Container/>
+
+Easier to manage components since they can be isolated.
+
 # Use {} inside JSX
 ## To display JS expressions inside JSX use {}
 https://youtu.be/ed8SzALpx1Q?t=2h47m8s
