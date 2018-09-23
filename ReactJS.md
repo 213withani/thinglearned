@@ -17,11 +17,12 @@ Point Talks:
 How do you build a large app? By building a bunch of small apps.
 
 Composition:
+```js
 <Container>
   <Navbar/>
   <Header/>
 <Container/>
-
+```
 Easier to manage components since they can be isolated. 
 
 Twitter example:
@@ -56,6 +57,44 @@ Just Javascript
 
 Note: to use JS inside JSX use {}, can be nested mostly inside render return.
 
+@38 mins
+Coding part: Create a react element, React.createElement()
+html/script going old school
+
+by including react in head script tag, we have acces to window.React
+
+Obj representation of a DOM node: React.createElement('html tag', 'attributes','children')
+
+ex: 
+```js
+<h1 id='header'>Tyler<h1>
+const headerElement = React.createElement('h1', {id: 'header'}, 'Tyler')
+```
+
+Instead of a creating an actual DOM node we will create an object representation of the DOM node.
+
+Props in createElement are like html attributes.
+
+object => DOM node
+
+ReactDOM.render will show our obj representation to the UI
+
+ReactDOM.render('element', 'mount')
+
+@47 mins
+Composing react elements
+
+@49 mins: wrapperElement
+
+```js
+const wrapperElement = React.createElement(
+'div',
+{ id: 'container' },
+nameElement,
+handleElement
+)
+
+```
 
 # Use {} inside JSX
 ## To display JS expressions inside JSX use {}
