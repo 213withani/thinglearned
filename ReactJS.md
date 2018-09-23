@@ -54,7 +54,7 @@ state is data that changes your UI
 @28:51
 Just Javascript
 
-Note: to use JS inside JSX use {}, can be nested.
+Note: to use JS inside JSX use {}, can be nested mostly inside render return.
 
 
 # Use {} inside JSX
