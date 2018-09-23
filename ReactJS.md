@@ -95,6 +95,11 @@ handleElement
 )
 
 ```
+@ 1hr
+A component is a function or is a class which optionally accepts input and returns a react element.
+
+Convert an element to a component. Looks like an element that now is dynamic
+
 
 # Use {} inside JSX
 ## To display JS expressions inside JSX use {}
