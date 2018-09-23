@@ -22,7 +22,19 @@ Composition:
   <Header/>
 <Container/>
 
-Easier to manage components since they can be isolated.
+Easier to manage components since they can be isolated. 
+
+Twitter example:
+ 
+ Thinking about components in React:
+ 1. State: What state is this component going to manage? or what state will it get from parent?
+ 2. UI: what is the ui IS going to look like for this component.
+
+What state is the component going to need and what is the final UI version going to look like.
+
+* Components are highly reusable.
+* Components are responsible to fetch their data and to render its UI.
+
 
 # Use {} inside JSX
 ## To display JS expressions inside JSX use {}
