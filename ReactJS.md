@@ -41,8 +41,16 @@ Uni directional state:
 * jquery: state changing all over the place.
 * shared mutable state is bad
 
+
 * React: state is outside of the dom and managed in our components
 * React is actually responsible for rendering the UI.
+* You manage state, React renders the UI
+
+@25:41
+Explicit Mutations: setState
+
+state is data that changes your UI
+
 
 # Use {} inside JSX
 ## To display JS expressions inside JSX use {}
