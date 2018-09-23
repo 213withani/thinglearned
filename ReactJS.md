@@ -35,6 +35,11 @@ What state is the component going to need and what is the final UI version going
 * Components are highly reusable.
 * Components are responsible to fetch their data and to render its UI.
 
+@ 23 mins
+Uni directional state:
+
+* jquery: state changing all over the place.
+* shared mutable state is bad
 
 # Use {} inside JSX
 ## To display JS expressions inside JSX use {}
