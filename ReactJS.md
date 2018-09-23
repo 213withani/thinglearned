@@ -51,6 +51,11 @@ Explicit Mutations: setState
 
 state is data that changes your UI
 
+@28:51
+Just Javascript
+
+Note: to use JS inside JSX use {}, can be nested.
+
 
 # Use {} inside JSX
 ## To display JS expressions inside JSX use {}
