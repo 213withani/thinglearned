@@ -100,6 +100,48 @@ A component is a function or is a class which optionally accepts input and retur
 
 Convert an element to a component. Looks like an element that now is dynamic
 
+instead of just using createElements, we wrapped those in components
+
+Shows that createElement first argument doesn't have to be specific html elements i.e. h1...
+```js
+const wrapperElement = React.createElement(
+'div',
+{ id: 'container' },
+React.createElement(NameComponent, {name: 'Tyler'}),
+React.createElement(handleComponent, {handle: '@tyler'})
+)
+
+```
+
+props are information that you pass to a component
+
+props.children explaind in intro:
+https://codeburst.io/a-quick-intro-to-reacts-props-children-cb3d2fce4891
+
+@1:12
+Introducting createElement abstraction aka JSX
+
+Note: <jsx>{js}</jsx>
+
+
+```js
+// div has an id prop and the components inside are props.children
+function App() {
+ return (
+  <div id='container'>
+   <NameComponent name = {name} />
+   <HandleComponent handle = {handle} />
+  </div>
+ )
+}
+```
+
+
+
+
+
+
+
 
 # Use {} inside JSX
 ## To display JS expressions inside JSX use {}
