@@ -121,8 +121,10 @@ https://codeburst.io/a-quick-intro-to-reacts-props-children-cb3d2fce4891
 @1:12
 Introducting createElement abstraction aka JSX
 
-Note: <jsx>{js}</jsx>
-
+Note: 
+```js
+<jsx>{js}</jsx>
+```
 
 ```js
 // div has an id prop and the components inside are props.children
@@ -136,9 +138,12 @@ function App() {
 }
 ```
 
+@ 1:17:11
+* Babel in order for the browser to be able to interpret our jsx.
+* Babel will convert our jsx into createElement
+* babeljs.io to check conversion
 
-
-
+We are not putting html in our JS.
 
 
 
