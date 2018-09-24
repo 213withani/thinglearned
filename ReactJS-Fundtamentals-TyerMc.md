@@ -61,7 +61,7 @@ state (local to component)
 
 If you have multiple components that need that state you can move the state up to the nearest parent component.
 
-# Gist 4 Modify state
+## Gist 4 Modify state
 
 We want to create a method for each we are going to be interacting, maybe updating our state.
 
@@ -91,7 +91,7 @@ so far we have:
  
  Need to use setState so we don't mutate state directly.
  
- # Gist 5 Invoke function to modify state
+ ## Gist 5 Invoke function to modify state
  
 Remove friend from list. The parent has the state (list of friends) and the child FriendList has the actual ul > li > button that we need to click to remove from the list the parent has. 
 
