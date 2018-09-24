@@ -24,7 +24,7 @@ Tools used http://tylermcginnis.com/gear
 
 We can encapsulate logic/state inside components.
 
-## State
+## .map
 
 Start from Hello world app and add state to manage top 8 friends list
 
@@ -38,7 +38,7 @@ Not static list, we need to update it from UI.
 
 A component is a function or a class which optionally takes arguments and returns a react element.
 
-## class
+## class & state
 A render function has a return and in between the render and return you can add JS such as variables.
 
 Tyler referred to the data, friends array as state.
@@ -52,3 +52,37 @@ this.state = {
 ```
 
 Functional components kind of act as the render part of class component.
+
+Class vs stateless functional component
+
+props (pass data to component) 
+vs 
+state (local to component)
+
+If you have multiple components that need that state you can move the state up to the nearest parent component.
+
+# Gist 4 Modify state
+
+We want to create a method for each we are going to be interacting, maybe updating our state.
+
+we want to 
+* Add items to the state.
+* Remove items to the state.
+
+so far we have:
+* class 
+ - state
+ - methods that modify state
+ - render 
+ 
+ Pass setState a function. The object this function returns is going to be merged with current state. 
+ ```js
+ this.setState( () => {} )
+ ```
+  
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+* The filter() method creates a new array with all elements that pass the test implemented by the provided function.
+* the test is the most important part of filter since it already knows it needs to return those elements that pass. 
+
+  
+ 
