@@ -96,4 +96,13 @@ so far we have:
 Remove friend from list. The parent has the state (list of friends) and the child FriendList has the actual ul > li > button that we need to click to remove from the list the parent has. 
 
 
-confused on this.method.
+this.method: 
+* When passing the parent's method to the child we prepend it with this. Seems like it looses it's context. The reason is JS will call a method based on where it got called. 
+ 
+```js
+// This will automatically be invoked as soon as the component loads
+ <button onClick={props.onRemoveFriend(name)}>Remove</button>
+ 
+ // A good way to pass arguments to the parent's method
+ <button onClick={() => props.onRemoveFriend(name)}>Remove</button>
+```
