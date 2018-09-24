@@ -100,9 +100,24 @@ this.method:
 * When passing the parent's method to the child we prepend it with this. Seems like it looses it's context. The reason is JS will call a method based on where it got called. 
  
 ```js
-// This will automatically be invoked as soon as the component loads
+// Invoking a function: This will automatically be invoked as soon as the component loads.
  <button onClick={props.onRemoveFriend(name)}>Remove</button>
  
- // A good way to pass arguments to the parent's method
+ // A function definition/reference: A good way to pass arguments to the parent's method.
+ <button onClick={props.onRemoveFriend}>Remove</button>
  <button onClick={() => props.onRemoveFriend(name)}>Remove</button>
 ```
+
+ this:
+ 
+ function sayName(name) {
+  alert('Hello' + name)
+ }
+
+we don't know what name is until we invoke sayName('Israel')
+
+props.onRemoveFriend(name) invoked in the context of props. Left of the dot is what the this keyword is referencing. So if we don't bind our methods then the this keyword is not set.
+
+.bind allows you to specify what the this keyword is going to reference. The this keyword references your class component.
+
+@57 mins summarizes this and .bind
