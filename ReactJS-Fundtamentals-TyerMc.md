@@ -95,3 +95,5 @@ so far we have:
  
 Remove friend from list. The parent has the state (list of friends) and the child FriendList has the actual ul > li > button that we need to click to remove from the list the parent has. 
 
+
+confused on this.method.
