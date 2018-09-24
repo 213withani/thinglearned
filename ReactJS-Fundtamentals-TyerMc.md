@@ -78,6 +78,8 @@ so far we have:
  Pass setState a function. The object this function returns is going to be merged with current state. 
  ```js
  this.setState( () => {} )
+ 
+ this.setState( (currentState) => {} )
  ```
   
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
@@ -85,4 +87,11 @@ so far we have:
 * the test is the most important part of filter since it already knows it needs to return those elements that pass. 
 
   
+ No need to return whole state in setState as new state will merge with current state.
  
+ Need to use setState so we don't mutate state directly.
+ 
+ # Gist 5 Invoke function to modify state
+ 
+Remove friend from list. The parent has the state (list of friends) and the child FriendList has the actual ul > li > button that we need to click to remove from the list the parent has. 
+
