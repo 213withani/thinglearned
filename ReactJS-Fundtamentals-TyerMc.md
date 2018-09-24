@@ -121,3 +121,5 @@ props.onRemoveFriend(name) invoked in the context of props. Left of the dot is w
 .bind allows you to specify what the this keyword is going to reference. The this keyword references your class component.
 
 @57 mins summarizes this and .bind
+
+# Gist 6 Add friends
