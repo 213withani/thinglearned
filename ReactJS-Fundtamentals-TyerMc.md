@@ -40,11 +40,14 @@ We can encapsulate logic/state inside components.
 
 @11:43 Simple app to add and remove friends. Will show how to add state to our react apps.
 
-## .map
+## ul > li > .map friends
 
-Start from Hello world app and add state to manage top 8 friends list
+<FriendsList list={friends}>
+  
+* Start from Hello world app and add state to manage top 8 friends list
+* component that receives the friend list and rendering them to the view
 
-component that receives the friend list and rendering them to the view
+@17 mins
 
 When creating a list in React, provide a unique key in order to figure what changed.
 
@@ -52,8 +55,12 @@ When creating a list in React, provide a unique key in order to figure what chan
 
 Not static list, we need to update it from UI.
 
-A component is a function or a class which optionally takes arguments and returns a react element.
+@19 mins
+A component is a function or a class which optionally accepts inputs and returns a react element.
 
+There are two ways to create a component; function or class.
+
+@ 20 mins
 ## class & state
 A render function has a return and in between the render and return you can add JS such as variables.
 
