@@ -38,6 +38,8 @@ Tools used http://tylermcginnis.com/gear
   
 We can encapsulate logic/state inside components.
 
+@11:43 Simple app to add and remove friends. Will show how to add state to our react apps.
+
 ## .map
 
 Start from Hello world app and add state to manage top 8 friends list
