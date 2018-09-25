@@ -5,6 +5,8 @@ Most fundamental building block of React is React element.
 createElement vs jsx (jsx is just an abstraciton of createElement)
 https://reactjs.org/docs/react-api.html#createelement
 
+Props can be passed to a component and be accessed inside the component.
+
 React.createElement(
   type,
   [props],
