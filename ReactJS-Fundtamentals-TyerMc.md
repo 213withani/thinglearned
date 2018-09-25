@@ -1,5 +1,16 @@
 # Free React.js Bootcamp - Day 2
 
+Most fundamental building block of React is React element.
+
+createElement vs jsx (jsx is just an abstraciton of createElement)
+https://reactjs.org/docs/react-api.html#createelement
+
+React.createElement(
+  type,
+  [props],
+  [...children]
+)
+
 ```js
 <script type='text/babel'>
  function App(props)
