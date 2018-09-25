@@ -31,10 +31,11 @@ React.createElement(
 
 Tools used http://tylermcginnis.com/gear 
 
+@9:29 mins
 2 things you need to consider when your thinking about components:
 * What is the component going to look like, the UI
 * Any state that component is going to manager
-
+  
 We can encapsulate logic/state inside components.
 
 ## .map
