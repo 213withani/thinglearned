@@ -127,7 +127,8 @@ The list of names will have a button on the side to remove them from the list.
 this.method: 
 * When passing the parent's method to the child we prepend it with this. Seems like it looses it's context. The reason is JS will call a method based on where it got called. 
  
-onClick even handler is added to button inside FriendsList stateless component. But since we need to pass a name to the event handler we can use an arrow function instead of just passing the reference. This way you can use any var inse the FriendList stateless component i.e name
+* onClick even handler is added to button inside FriendsList stateless component. But since we need to pass a name to the event handler we can use an arrow function instead of just passing the reference. This way you can use any var inse the FriendList stateless component i.e name
+* event handlers take a reference not a function invocation.
 
 ```js
 // Invoking a function: This will automatically be invoked as soon as the component loads.
@@ -140,6 +141,7 @@ onClick even handler is added to button inside FriendsList stateless component. 
 * This seems like a beautiful closure: Uses an arrow function to remember the scope the function was called on. 
 * If we click the remove button on the list. There will be an error. The reason is that the button onClick even handler is calling the method that was passed it. But the method that was passed it was not explicitly bind to the class component thus can't find it.
 * Once way to fix it is to bind your methods in the constructor.
+* One way to prove this is don't bind a method in a parent component, call the method from the child component and it won't work as expected since there is no explicit binding.
 
 ```js
  this:
