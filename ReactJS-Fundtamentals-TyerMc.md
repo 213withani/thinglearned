@@ -177,4 +177,10 @@ props.onRemoveFriend(name) invoked in the context of props. Left of the dot is w
  this.SetState(() => ({
   input: value
  }))
+
+//to append to an array.
+prevState.friends.concat([this.state.input])
 ```
+The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
+
