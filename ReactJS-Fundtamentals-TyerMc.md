@@ -161,7 +161,20 @@ props.onRemoveFriend(name) invoked in the context of props. Left of the dot is w
 @1:06
 # Gist 6 Add friends
 
-<input>
+<input> 
 
 * If you type inside an input field, you are adding data which is state and react wants to manage state.
+* Input state will be whatever the local input state is. Set input value to state value.
+* To set state use event handler onChange and pass event obj
 
+```js
+ this.SetState({
+  input: value
+ })
+ 
+ vs
+ 
+ this.SetState(() => ({
+  input: value
+ }))
+```
