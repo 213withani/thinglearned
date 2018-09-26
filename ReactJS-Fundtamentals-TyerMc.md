@@ -61,7 +61,7 @@ A component is a function or a class which optionally accepts inputs and returns
 There are two ways to create a component; function or class.
 
 @ 20 mins
-## class & state
+## class component can have state
 A render function has a return and in between the render and return you can add JS such as variables.
 
 Tyler referred to the data, friends array as state.
@@ -74,6 +74,9 @@ this.state = {
 }
 ```
 
+* this = component instance
+* this is used everywhere in our class to be specific what is our context
+
 Functional components kind of act as the render part of class component.
 
 Class vs stateless functional component
@@ -82,7 +85,7 @@ props (pass data to component)
 vs 
 state (local to component)
 
-If you have multiple components that need that state you can move the state up to the nearest parent component.
+Lifting state up: If you have multiple components that need that state you can move the state up to the nearest parent component.
 
 ## Gist 4 Modify state
 
