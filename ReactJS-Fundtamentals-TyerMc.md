@@ -89,17 +89,17 @@ Lifting state up: If you have multiple components that need that state you can m
 
 ## Gist 4 Modify state
 
-We want to create a method for each we are going to be interacting, maybe updating our state.
-
-we want to 
+We want to create a method for each way we are going to be interacting, maybe updating our state: 
 * Add items to the state.
 * Remove items to the state.
+
+You explicitly tell React when you want to update state using setState
 
 so far we have:
 * class 
  - state
  - methods that modify state
- - render 
+  - render 
  
  Pass setState a function. The object this function returns is going to be merged with current state. 
  ```js
@@ -112,19 +112,23 @@ so far we have:
 * The filter() method creates a new array with all elements that pass the test implemented by the provided function.
 * the test is the most important part of filter since it already knows it needs to return those elements that pass. 
 
-  
  No need to return whole state in setState as new state will merge with current state.
  
  Need to use setState so we don't mutate state directly.
  
  ## Gist 5 Invoke function to modify state
- 
+ @ 43 mins
 Remove friend from list. The parent has the state (list of friends) and the child FriendList has the actual ul > li > button that we need to click to remove from the list the parent has. 
 
+The list of names will have a button on the side to remove them from the list.
+* ul > li > Name button
 
+@45 mins
 this.method: 
 * When passing the parent's method to the child we prepend it with this. Seems like it looses it's context. The reason is JS will call a method based on where it got called. 
  
+onClick even handler is added to button inside FriendsList stateless component. But since we need to pass a name to the event handler we can use an arrow function instead of just passing the reference. This way you can use any var inse the FriendList stateless component i.e name
+
 ```js
 // Invoking a function: This will automatically be invoked as soon as the component loads.
  <button onClick={props.onRemoveFriend(name)}>Remove</button>
@@ -133,12 +137,16 @@ this.method:
  <button onClick={props.onRemoveFriend}>Remove</button>
  <button onClick={() => props.onRemoveFriend(name)}>Remove</button>
 ```
+* This seems like a beautiful closure: Uses an arrow function to remember the scope the function was called on. 
+* If we click the remove button on the list. There will be an error. The reason is that the button onClick even handler is calling the method that was passed it. But the method that was passed it was not explicitly bind to the class component thus can't find it.
+* Once way to fix it is to bind your methods in the constructor.
 
+```js
  this:
- 
  function sayName(name) {
   alert('Hello' + name)
  }
+```
 
 we don't know what name is until we invoke sayName('Israel')
 
