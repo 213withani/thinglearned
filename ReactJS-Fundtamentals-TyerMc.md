@@ -158,4 +158,10 @@ props.onRemoveFriend(name) invoked in the context of props. Left of the dot is w
 
 @57 mins summarizes this and .bind
 
+@1:06
 # Gist 6 Add friends
+
+<input>
+
+* If you type inside an input field, you are adding data which is state and react wants to manage state.
+
