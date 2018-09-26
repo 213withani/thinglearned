@@ -10,3 +10,9 @@ https://medium.com/front-end-hacking/understanding-static-in-javascript-10782149
 
 # class
 https://javascript.info/class
+
+# modal
+
+https://codepen.io/Middi/pen/rJYOyz
+
+Background becomes opaque, modal is centered both vertically and horizontally. Add a close button using + button.
