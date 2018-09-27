@@ -184,3 +184,19 @@ prevState.friends.concat([this.state.input])
 The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
 
+# 3
+@7:45 mins
+Assignment Solutions:
+* turn friends array into an array of objects
+* fix code to use friends
+* create 2 functions/stateless components, one for active and another for unactive friends. When instatianing the component pass in a filtered list of active or inactive list.
+
+@16:33 mins
+* Remove active friends
+* create function to find friend and toggle its active status
+* in FP filter out the list and add back the friend i.e don't mutate state
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+The find() method returns the value of the first element in the array that satisfies the provided testing function. Otherwise undefined is returned.
+
+concat seems to be used as [...] spread operator inside an array.
