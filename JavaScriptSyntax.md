@@ -1,6 +1,17 @@
 # drop Object attributes(keys/values)
-```const newArray = array.map(({dropAttr1, dropAttr2, ...keepAttrs}) => keepAttrs)```
+```
+const newArray = array.map(({dropAttr1, dropAttr2, ...keepAttrs}) => keepAttrs)
+
+const myObject = {
+  a: 1,
+  b: 2,
+  c: 3
+};
+const { a, ...noA } = myObject;
+console.log(noA); // => { b: 2, c: 3 }
+```
 https://stackoverflow.com/questions/18133635/javascript-remove-attribute-for-all-objects-in-array
+https://codeburst.io/use-es2015-object-rest-operator-to-omit-properties-38a3ecffe90
 
 # .map()
 https://youtu.be/ed8SzALpx1Q?t=2h33m29s
