@@ -1,4 +1,4 @@
-# drop Object attributes(keys/values)
+# Rest Operator to Omit Properties
 ```
 const newArray = array.map(({dropAttr1, dropAttr2, ...keepAttrs}) => keepAttrs)
 
