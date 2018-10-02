@@ -1,3 +1,8 @@
+# ES6 vs ES5 template literal
+```
+ES5: '( ' + name + ' )';
+ES6: `( ${name} )`;
+```
 # Rest Operator to Omit Properties
 ```
 const newArray = array.map(({dropAttr1, dropAttr2, ...keepAttrs}) => keepAttrs)
