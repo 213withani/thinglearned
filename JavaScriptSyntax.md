@@ -2,6 +2,8 @@
 ```
 ES5: '( ' + name + ' )';
 ES6: `( ${name} )`;
+
+example output: (Israel)
 ```
 # Rest Operator to Omit Properties
 ```
