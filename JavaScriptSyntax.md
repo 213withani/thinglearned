@@ -1,4 +1,4 @@
-# ES6 vs ES5 template literal
+# ES5 string concat vs ES6 template literal
 ```
 ES5: '( ' + name + ' )';
 ES6: `( ${name} )`;
