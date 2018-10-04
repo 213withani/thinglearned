@@ -38,3 +38,21 @@ https://javascript.info/class
 https://codepen.io/Middi/pen/rJYOyz
 
 Background becomes opaque, modal is centered both vertically and horizontally. Add a close button using + button.
+
+# Check for null
+
+https://stackoverflow.com/questions/6003884/how-do-i-check-for-null-values-in-javascript
+
+```
+Specific:
+if(variable === null)
+
+lodash:
+_.isNull(varoabe)
+
+Check for empty strings (""), null, undefined, false and the numbers 0 and NaN
+if (!variable)
+
+
+```
+
