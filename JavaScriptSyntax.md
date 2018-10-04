@@ -5,6 +5,8 @@ ES6: `( ${name} )`;
 
 example output: (Israel)
 ```
+https://developers.google.com/web/updates/2015/01/ES6-Template-Strings
+
 # Rest Operator to Omit Properties
 ```
 const newArray = array.map(({dropAttr1, dropAttr2, ...keepAttrs}) => keepAttrs)
