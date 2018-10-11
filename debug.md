@@ -1,3 +1,7 @@
+# componentWillReceiveProps
+```
+nextProps will be displayed in Scope > Local
+``` 
 # NodeJS middle tier
 * If all environments are working except one then our middle tier is not likely the issue.
 * Recreated endpoint used by the app and proved the endpoint was returning an empty []
