@@ -1,3 +1,8 @@
+# source maps
+https://itnext.io/using-sourcemaps-on-production-without-revealing-the-source-code-%EF%B8%8F-d41e78e20c89
+* sourcemaps needs to be uploaded along with the minified code 
+* Upload assets to s3 OR make dev tools load them from developer’s machine instead.
+
 # componentWillReceiveProps
 ```
 nextProps will be displayed in Scope > Local
