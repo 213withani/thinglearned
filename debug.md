@@ -1,3 +1,6 @@
+# A Deep Dive into React Perf Debugging
+https://benchling.engineering/a-deep-dive-into-react-perf-debugging-fd2063f5a667
+
 # source maps
 https://itnext.io/using-sourcemaps-on-production-without-revealing-the-source-code-%EF%B8%8F-d41e78e20c89
 * sourcemaps needs to be uploaded along with the minified code 
