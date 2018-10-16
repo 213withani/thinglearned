@@ -1,3 +1,6 @@
+# Getting Literal With ES6 Template Strings
+https://developers.google.com/web/updates/2015/01/ES6-Template-Strings
+
 # ES5 string concat vs ES6 template literal
 ```
 ES5: '( ' + name + ' )';
