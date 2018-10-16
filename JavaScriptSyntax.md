@@ -22,6 +22,9 @@ console.log(noA); // => { b: 2, c: 3 }
 https://stackoverflow.com/questions/18133635/javascript-remove-attribute-for-all-objects-in-array
 https://codeburst.io/use-es2015-object-rest-operator-to-omit-properties-38a3ecffe90
 
+# Object rest/spread properties in JavaScript (Long version)
+https://dmitripavlutin.com/object-rest-spread-properties-javascript/
+
 # .map()
 https://youtu.be/ed8SzALpx1Q?t=2h33m29s
 https://youtu.be/ed8SzALpx1Q?t=2h57m33s
