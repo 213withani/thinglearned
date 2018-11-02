@@ -1,4 +1,8 @@
+# react-pattern-centralized-proptypes
+https://medium.freecodecamp.org/react-pattern-centralized-proptypes-f981ff672f3b
 
+## JSON to prop types
+https://transform.now.sh/
 
 # Use {} inside JSX
 ## To display JS expressions inside JSX use {}
