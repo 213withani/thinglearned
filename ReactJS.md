@@ -1,6 +1,14 @@
 # react-pattern-centralized-proptypes
 https://medium.freecodecamp.org/react-pattern-centralized-proptypes-f981ff672f3b
 
+## 
+import PropTypes from 'prop-types';
+```
+NavMenu.propTypes = {
+  loading: PropTypes.bool.isRequired,
+};
+```
+
 ## JSON to prop types
 https://transform.now.sh/
 
