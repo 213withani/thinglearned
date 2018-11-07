@@ -2,6 +2,8 @@
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
 The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array
 
+The shift() method removes the first element from an array and returns that removed element.
+
 # Lodash
 https://lodash.com/docs/4.17.11#find
 Iterates over elements of collection (Array|Object), returning the first element predicate returns truthy for.
