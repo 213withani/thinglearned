@@ -1,3 +1,7 @@
+# font-weight
+lighter or bolder (100 or 900)
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
+
 # Array.prototype.unshift()
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
 The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array
