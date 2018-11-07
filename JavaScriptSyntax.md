@@ -8,7 +8,7 @@ The unshift() method adds one or more elements to the beginning of an array and 
 
 The shift() method removes the first element from an array and returns that removed element.
 
-## simple: push/pop from back, shift, unshift from front
+## simple tut: push/pop from back, shift/unshift from front of array
 https://alligator.io/js/push-pop-shift-unshift-array-methods/
 
 # Lodash
