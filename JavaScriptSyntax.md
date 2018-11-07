@@ -1,3 +1,20 @@
+# Lodash
+https://lodash.com/docs/4.17.11#find
+Iterates over elements of collection (Array|Object), returning the first element predicate returns truthy for.
+```
+export const items = [
+  {
+    name: 'Map',
+    link: '/',
+    analyticsLabel: 'Map',
+    action: 'View Map',
+  },
+  
+  const itemExists = _.find(items, (item) => {
+      return item.name === 'name ex';
+    });
+];
+```
 # Getting Literal With ES6 Template Strings
 https://developers.google.com/web/updates/2015/01/ES6-Template-Strings
 
