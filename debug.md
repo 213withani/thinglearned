@@ -1,3 +1,7 @@
+# Debugging ReactJS 
+Look at the return of the render function. Gives you a visual of the component being rendered.
+React the unit tests.
+
 # A Deep Dive into React Perf Debugging
 https://benchling.engineering/a-deep-dive-into-react-perf-debugging-fd2063f5a667
 
